@@ -6,7 +6,7 @@ from src.models.rfdetr.config import RFDETR_TRAIN_ARGS
 RFDETR_SMOKE_TRAIN_ARGS = RFDETR_TRAIN_ARGS.copy()
 RFDETR_SMOKE_TRAIN_ARGS.update(
     {
-        "epochs": 3,
+        "epochs": 1,
         "batch_size": 2,
         "grad_accum_steps": 1,
         "resolution": 640,

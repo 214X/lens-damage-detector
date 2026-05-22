@@ -9,6 +9,10 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+.coverage.*
+.hypothesis/
+htmlcov/
 
 # Virtual environments
 .venv/
@@ -30,6 +34,8 @@ runs/
 wandb/
 mlruns/
 lightning_logs/
+.tensorboard-info/
+*.log
 
 # Local environment files
 .env
@@ -42,3 +48,5 @@ data_smoke/
 # Editor / IDE
 .idea/
 .vscode/
+*.swp
+*.swo
